@@ -1,0 +1,26 @@
+.rowTable {
+  display: grid;
+  grid-template-columns: 13% 16% 25% 15% auto;
+}
+
+.rowTable:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+.rowTable span {
+  font-size: 17px;
+  padding: 15px;
+}
+
+.rowTable span:nth-child(4),
+.rowTable span:nth-child(5) {
+  text-align: right;
+}
+
+.redColor {
+  color: rgb(230, 6, 6);
+}
+
+.blackColor {
+  color: var(--secondary_color);
+}

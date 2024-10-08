@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.form input,
+.form select {
+  width: 200px;
+}
+
+.container {
+  border-bottom: 1px solid var(--secondary_color);
+  margin-bottom: 1rem;
+}
+
+.container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 20%;
+}
+
+p {
+  min-width: 250px;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+.error {
+  color: var(--error_color);
+}

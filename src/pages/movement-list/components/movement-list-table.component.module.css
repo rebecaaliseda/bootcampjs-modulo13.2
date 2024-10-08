@@ -1,0 +1,19 @@
+.tableContainer {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.headerTableContainer {
+  display: grid;
+  grid-template-columns: 13% 16% 25% 15% auto;
+  gap: 2px;
+  color: var(--table-header-color);
+}
+
+.headerTableContainer span {
+  font-size: var(--table-header-font-size);
+  font-weight: var(--table-header-font-weight);
+  color: var(--table-header-color);
+  background-color: var(--table-header-background-color);
+  padding: 12px;
+}
